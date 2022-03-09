@@ -3,10 +3,6 @@
 const addBtn = document.querySelector('.addNew');
 const submit = document.querySelector('.submit');
 const cancel = document.querySelector('.cancel');
-const read = document.querySelector('#read');
-const remove = document.querySelector('.remove')
-const readConfirm = document.querySelector('.readConfirm');
-const fillCard = document.querySelector('.fillCard');
 const popUp = document.querySelector('.popUp')
 
 
