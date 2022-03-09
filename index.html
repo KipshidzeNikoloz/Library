@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+<body>
+    <header class = 'header'>
+        <h1 class = 'headerText'>My Library</h1>
+    </header>
+    <div class="container">
+        <button class="addNew">Add a Book</button>
+        <div class="libraryContainer">
+            <div class="card">
+                <div class="bookCard">
+                    <div class="bookCardInfo">
+                        <div class="title">Harry Potter and The Order of The Phoenix</div>
+                        <div class="author">J.K Rowling</div>
+                        <div class="pages">316 Pages</div>
+                    </div>
+                    <div class="bookCardOperations">
+                        <button class="readConfirm"><span class="iconify" data-icon="ant-design:read-outlined"></span></button>
+                        <button class="remove"><span class="iconify" data-icon="iconoir:cancel"></span></button>
+                    </div>
+                </div>   
+            </div> 
+            <div class="fillCard">
+                <div class="userInput">
+                    <input class="inputForm" type="text" name="title" id="title" placeholder = "Title">
+                    <input class="inputForm" type="text" name="author" id="author" placeholder="Author">
+                    <input class="inputForm" type="text" name="pages" id="pages" placeholder="Pages">
+                </div>
+                <div class="isRead">
+                    <div class="read">Have you read this book?</div> 
+                    <input class ="checkBox" type="checkbox" name="read" id="read">
+                </div>
+                <div class="userChoice">
+                    <button class="submit">Submit</button>
+                    <button class="cancel">Cancel</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="myscripts.js"></script> 
+</body>
+</html>
